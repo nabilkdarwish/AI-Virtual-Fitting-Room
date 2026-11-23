@@ -84,6 +84,13 @@ source venv/bin/activate  # في لينكس
 pip install -r requirements.txt
 ```
 
+3. **تشغيل واجهة غرفة القياس المكتوبة ببايثون:**
+```bash
+pip install -r 05_Frontend_Backend/requirements.txt
+streamlit run 05_Frontend_Backend/frontend/app.py
+```
+ستفتح الواجهة في المتصفح، ومنها يمكنك التقاط صورة أو رفعها واختيار قطعة من الكتالوج.
+
 ---
 
 ## 📌 نصيحة لكل عضو في الفريق

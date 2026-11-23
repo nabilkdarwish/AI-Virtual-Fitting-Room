@@ -84,3 +84,10 @@ Thumbs.db
 .coverage
 htmlcov/
 *.log
+
+# Catalog image binaries (keep metadata and instructions)
+Dataset/Catalog/*/*/*.jpg
+Dataset/Catalog/*/*.jpg
+Dataset/Virtual_TryOn/CURVTON/sample/*
+Dataset/Virtual_TryOn/VITON_HD/*
+!Dataset/Virtual_TryOn/VITON_HD/README.md

@@ -1,0 +1,6 @@
+# 01_Computer_Vision Requirements
+opencv-python>=4.8.0
+mediapipe>=0.10.0
+numpy>=1.24.0,<2.0.0
+filterpy>=1.4.5
+pytest>=7.4.0

@@ -1,0 +1,86 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+
+# Node / Frontend
+node_modules/
+.npm
+05_Frontend_Backend/frontend/dist/
+05_Frontend_Backend/frontend/.vite/
+
+# Large Model Weights and Checkpoints (Tracked via HF / S3 / Download scripts)
+Models/pretrained/*
+!Models/pretrained/.gitkeep
+Models/checkpoints/*
+!Models/checkpoints/.gitkeep
+*.pt
+*.pth
+*.bin
+*.onnx
+*.safetensors
+*.ckpt
+
+# Datasets (Keep structure, sample metadata & instructions, ignore heavy binary image dumps)
+Dataset/Raw/*
+!Dataset/Raw/.gitkeep
+Dataset/Processed/*
+!Dataset/Processed/.gitkeep
+Dataset/Virtual_TryOn/CURVTON/Men/*
+!Dataset/Virtual_TryOn/CURVTON/Men/.gitkeep
+Dataset/Virtual_TryOn/CURVTON/Women/*
+!Dataset/Virtual_TryOn/CURVTON/Women/.gitkeep
+Dataset/Virtual_TryOn/VITON_HD/train/*
+!Dataset/Virtual_TryOn/VITON_HD/train/.gitkeep
+Dataset/Virtual_TryOn/VITON_HD/test/*
+!Dataset/Virtual_TryOn/VITON_HD/test/.gitkeep
+Dataset/Image_Processing/DeepFashion2/train/*
+!Dataset/Image_Processing/DeepFashion2/train/.gitkeep
+Dataset/Image_Processing/DeepFashion2/validation/*
+!Dataset/Image_Processing/DeepFashion2/validation/.gitkeep
+Dataset/Image_Processing/DeepFashion2/test/*
+!Dataset/Image_Processing/DeepFashion2/test/.gitkeep
+
+# IDEs & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
